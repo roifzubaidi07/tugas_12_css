@@ -1,0 +1,56 @@
+header {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+a {
+  padding: 10px;
+  color: white;
+  font-size: 16pt;
+  text-decoration: none;
+}
+li {
+  margin-top: 10px;
+  display: inline-block;
+}
+.card {
+  background-image: linear-gradient(
+    to right,
+    lightblue,
+    lightskyblue,
+    lightblue
+  );
+  margin-bottom: 20px;
+  box-shadow: 5px 3px 8px 5px #d4d4d4;
+  padding-bottom: 18px;
+}
+.slider {
+  background-image: linear-gradient(to right, lightskyblue, lightblue);
+  padding-top: 18px;
+}
+.slider-img {
+  width: 97%;
+}
+
+.image {
+  padding-top: 18px;
+  position: sticky;
+  float: left;
+  left: 31px;
+  width: 12%;
+}
+.p-text {
+  position: relative;
+  left: 40px;
+  column-count: 4;
+  width: 1100px;
+  column-fill: balance;
+  text-align: justify;
+  column-rule: 5px double black;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+}
